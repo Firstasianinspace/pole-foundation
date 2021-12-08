@@ -1,4 +1,4 @@
-# Pole-foundations
+# Pole-foundation
 
 Дизайн система тестируем молекулы и атомы
 
@@ -7,13 +7,13 @@
 Прописать в консоли
 
 ```bash
-npm i --save-dev pole-foundations
+npm i --save-dev pole-foundation
 ```
 
 ## Использование
 
 ```scss
-@import '~pole-foundations/scss';
+@import '~pole-foundation/scss';
 
 /*
 ** Молекулы
@@ -43,4 +43,18 @@ $font-lh1: 44px;
 <h1 class="text-largetitle>
   Hello
 </h1>
+```
+
+## Использование variables
+Пример
+```scss
+@use '~pole-foundation/scss/variables/code' as variables;
+
+.test {
+  color: $сolor-default-text-primary;
+
+  &:hover {
+    color: $сolor-default-text-black_hover;
+  }
+}
 ```
