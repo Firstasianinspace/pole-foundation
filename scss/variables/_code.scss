@@ -1,0 +1,279 @@
+/*
+**
+Base colors and font styles
+**
+*/
+
+//COLORS
+//Common Colors
+
+$black: #121212;
+$white: #FFF;
+$black-5: #F3F3F3;
+$red: #ED0E00;
+$red-80: #F13E33;
+$red-10: #FFE2E0;
+$turquoise: #1598A6;
+$turquoise-80: #44ADB8;
+$turquoise-bright-10: #E8F8F9;
+$pink: #E0016C;
+$pink-80: #E63489;
+$pink-10:#FFE7F3;
+$blue-dark:#09546E;
+$blue-dark-80: #3A768B;
+$yellow:#FED731;
+$blue-light-60: #DEF6FF;
+$brown-light-35: #FBECCF;
+$lime-40: #F5FFCD;
+$blue-pale-40:#DCEAFF;
+$brown-pale: #EDDFD3;
+$pumpkin-35: #EDDFD3;
+$violet-light-40: #F8E3FF;
+$yellow-30: #FFF0BD;
+$green-pale: #E3FFC7;
+
+
+//Interface Colors
+$red-dark: #AD0000;
+$red-dark-25:#EBBFBF;
+$red-dark-5: #FBF2F2;
+$orange-dark:#E56700;
+$orange:#FA973B;
+$orange-30:#FDE0C4;
+$orange-10:#FFF5EB;
+$blue:#0071C2;
+$green: #2FAC3B;
+$green-40:#ACDEB1;
+$green-10:#EAF7EB;
+$burgundy: radial-gradient(74.89% 145.47% at 88.79% 20%, #9A2148 0%, #7A042A 100%);
+$burgundy-light:#FFEBEB;
+
+$black-90: #2A2A2A;
+$black-80:#414141;
+$black-70:#595959;
+$black-60:#717171;
+$black-50:#888888;
+$black-40:#A0A0A0;
+$black-30:#B8B8B8;
+$black-20:#D0D0D0;
+$black-10:#E7E7E7;
+$black-2: #FAFAFA;
+
+$blackout-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+$blackout-60: rgba(18, 18, 18, 0.6);
+$blackout-40: rgba(18, 18, 18, 0.4);
+$blackout-20:rgba(18, 18, 18, 0.2);
+$blackout-12:rgba(18, 18, 18, 0.12);
+$blackout-5:rgba(18, 18, 18, 0.05);
+
+$white-96:rgba(255, 255, 255, 0.96);
+$white-80:rgba(255, 255, 255, 0.8);
+$white-70:rgba(255, 255, 255, 0.7);
+$white-50:rgba(255, 255, 255, 0.5);
+$white-30:rgba(255, 255, 255, 0.3);
+$white-10:rgba(255, 255, 255, 0.1);
+$white-5:rgba(255, 255, 255, 0.05);
+
+
+//Communication Colors
+$red-35:#FFAFAA;
+$red-25:#FFC3BF;
+$pumpkin:#FF8144;
+$ginger-pale:#FFC247;
+$ginger-pale-60:#FFD98D;
+$green-dark:#6EA603;
+$green-bright:#B0D749;
+$lime:#E3FF74;
+$green-light:#EBFF9B;
+$pink-40:#F399C4;
+$pink-30:#F6B3D3;
+$violet:#B196FF;
+$violet-light:#E6BEFF;
+$brown-light:#F1C87A;
+$brown-light-60:#FFE2AB;
+$turquoise-bright:#33BECC;
+$turquoise-bright-50:#99DEE5;
+$turquoise-pale:#B7F0E6;
+$turquoise-pale-50: #D3FFF7;
+$turquoise-pale-30:#E2FFFA;
+$pumpkin-bright:#FF9A23;
+$blue-bright:#55A5C3;
+$blue-light:#C3EFFF;
+$yellow-70:#FFE37E;
+$blue-pale:#A7C7F9;
+$blue-pale-70:#C2DAFF;
+
+
+
+//TEXT STYLES (здесь можно собирать все возможные значения, которые встречаются в проектах)
+//font weight
+$font-b: 700;
+$font-db: 600;
+$font-m: 500;
+$font-r: 400;
+
+//font size
+$font-s1: 36px;
+$font-s2: 30px;
+$font-s3: 25px;
+$font-s4: 24px;
+$font-s5: 22px;
+$font-s6: 20px;
+$font-s7: 18px;
+$font-s8: 16px;
+$font-s9: 15px;
+$font-s10: 14px;
+$font-s11: 13px;
+$font-s12: 12px;
+$font-s13: 11px;
+
+//font line-height
+$font-lh1: 44px;
+$font-lh2: 40px;
+$font-lh3: 30px;
+$font-lh4: 29px;
+$font-lh5: 24px;
+$font-lh6: 22px;
+$font-lh7: 20px;
+$font-lh8: 18px;
+$font-lh9: 13px;
+
+//ЦВЕТА
+//Текст
+$сolor-default-text-primary: $black; //основной цвет текста
+$color-default-text-secondary: $black-60; //вторичный цвет текста (например, плейсхолдеры)
+$сolor-default-text-black_hover: $black-80; //ховер у чёрного текста (текст на светлых кнопках)
+$сolor-default-text-black_disable: $black-30; //дисэйбл у чёрного текста (текст на светлых кнопках)
+$сolor-default-text-white: $white; //белый текст (каунтер корзины, номер на карте лояльности в ЛК)
+$color-default-text-error: $red-dark; //текст ошибки
+$color-default-text-warning_light: $orange-dark; //текст предупреждения на светлом фоне
+$color-default-text-warning_dark: $orange; //текст предупреждения на тёмном фоне
+$color-default-text-successful: $green; //текст "успеха"
+$сolor-default-text-menu: $red; //активный пункт меню в хедере
+$сolor-default-text-sale: $red; //акционные цены
+
+
+//Инпуты
+$сolor-default-input-stroke_focus: $black-60; //обводка у инпута в состоянии фокуса
+$сolor-default-input-stroke: $black-20; //обводка у инпута в обычном состоянии
+$сolor-default-input-disable: $black-5; //заливка у задизэйбленного инпута
+$сolor-default-input-filled: $black-5; //заливка у инпута поиска
+$сolor-default-input-stroke_error: $red-dark; //заливка у инпута с ошибкой
+
+
+//Кнопки
+$сolor-default-button-black: $black; //основной цвет кнопки
+$color-default-button-black_hover: $black-80; //ховер чёрной кнопки
+$сolor-default-button-black_disable: $black-30; //дизэйбл чёрных кнопок
+$сolor-default-button-red: $red; //основной цвет красных кнопок
+$сolor-default-button-red-hover: $red-80; //ховер красных кнопок
+$сolor-default-button-gray: $black-5; //серые кнопки
+
+
+//Иконки
+$сolor-default-icon-black: $black; //чёрные иконки
+$color-default-icon-gray: $black-20; //серые иконки
+$сolor-default-icon-red: $red; //красные иконки
+$сolor-default-icon-menu: $red; //иконка активного пункта меню 
+$сolor-default-icon-white: $white; //белые иконки
+$color-default-icon-error_primary: $red-dark; //основной цвет в двухцветных иконках ошибок
+$color-default-icon-error_secondary: $red-dark-25; //вторичный цвет в двухцветных иконках ошибок
+$color-default-icon-warning_primary: $orange; //основной цвет в двухцветных иконках уведомлений
+$color-default-icon-warning_secondary: $orange-30; //вторичный цвет в двухцветных иконках уведомлений
+$color-default-icon-successful_primary: $green; //основной цвет в двухцветных иконках успеха
+$color-default-icon-successful_secondary: $green-40; //вторичный цвет в двухцветных иконках уведомлений
+
+
+//Бейджи
+$сolor-default-badge-red: $red; //красный скидочный бейдж
+$сolor-default-badge-promotion: $yellow; //цвет промо-бейджа (Лояльность) (пока нет)
+$сolor-default-badge-price: $yellow; //цвет бейджа с ценой (Лояльность) (пока нет)
+
+
+//Бренды
+$сolor-default-magnit-primary: $red; //основной цвет magnit.ru в блоке с выбором сервисов
+$сolor-default-express-primary: $red; //основной цвет Экспресса в блоке с выбором сервисов
+$сolor-default-family-primary: $red; //основной цвет Регулярки в блоке с выбором сервисов
+$сolor-default-cosmetic-primary: $pink; //основной цвет Косметика в блоке с выбором сервисов
+$сolor-default-apteka-primary: $turquoise; //основной цвет Аптеки в блоке с выбором сервисов
+$сolor-default-master-primary: $blue-dark; //основной цвет Мастера в блоке с выбором сервисов
+
+$сolor-default-magnit-secondary: $red-80; //вторичный цвет magnit.ru в блоке с выбором сервисов (пока нет)
+$сolor-default-express-secondary: $red-80; //вторичный цвет Экспресса в блоке с выбором сервисов (пока нет)
+$сolor-default-family-secondary: $red-80; //вторичный цвет Регулярки в блоке с выбором сервисов (пока нет)
+$сolor-default-cosmetic-secondary: $pink-80; //вторичный цвет Косметика в блоке с выбором сервисов (пока нет)
+$сolor-default-apteka-secondary: $turquoise-80; //вторичный цвет Аптеки в блоке с выбором сервисов (пока нет)
+$сolor-default-master-secondary: $blue-dark-80; //вторичный цвет Мастера в блоке с выбором сервисов (пока нет)
+
+
+//Затемнения
+$color-default-blackout-modal: $blackout-40; //затемнение под модалками
+
+
+//Обводки и разделители
+$сolor-default-border-divider: $black-10; //полоски-разделители (в хедере, в корзине, в заменах)
+$сolor-default-border-form: $black-10; //обводка у форм (в ЛК, саммари в корзине и чекауте)
+
+
+//Прочее
+$сolor-default-magnit-bonus: $yellow; //бонусы Магнит (пока нет)
+$color-default-pagination-active: $black; //в пагинации на баннерах активный кружок
+$color-default-pagination-inactive: $blackout-20; //в пагинации на баннерах неактивный кружок
+$сolor-default-checkbox-active: $red; //чекбоксы, активное состояние
+$сolor-default-checkbox-inactive: $black-30; //чекбоксы, неактивное состояние
+$сolor-default-radiobutton-active: $red; //радиобаттоны, активное состояние
+$сolor-default-radiobutton-inactive: $black-20; //радиобаттоны, неактивное состояние
+$сolor-default-slider: $red; //слайдер (выбор цены в каталоге)
+$сolor-default-indicator: $red; //индикатор нового заказа и фон у каунтера в корзине в хедере
+$сolor-default-toggle-active: $red; //на вебе: тогл переключения акционных цен в каталоге, активное состояние
+$сolor-default-toggle-inactive: $black-20; //на вебе: тогл переключения акционных цен в каталоге, неактивное состояние
+$сolor-default-scroll-bar: $black-30; //фон ползунка в скролле
+$сolor-default-scroll-background: $black-10; //фон скролла
+$сolor-default-progressbar-filled: $green; //цвет заполненного прогресс-бара
+$сolor-default-progressbar-unfilled: $black-10; //цвет незаполненного прогресс-бара
+
+
+//Фоны
+$сolor-default-background-express: $red-10; //цвет фона Экспресса (на вебе пока нет)
+$сolor-default-background-family: $brown-light-35; //цвет фона Регулярки (на вебе пока нет)
+$сolor-default-background-cosmetic: $pink-10; //цвет фона Косметика (на вебе пока нет)
+$сolor-default-background-apteka: $turquoise-bright-10; //цвет фона Аптеки (на вебе пока нет)
+$сolor-default-background-master: $blue-light-60; //цвет фона Мастера (на вебе пока нет)
+$color-default-background-image: $black-5; //цвет подложки у товаров в каталоге и карточке (пока нет, но будет)
+$color-default-background-error: $red-dark-5; //цвет фона у уведомлений об ошибках (пока нет)
+$color-default-background-warning: $orange-10; //цвет фона у уведомлений с предупреждениями (замены на главной странице)
+$color-default-background-successful: $green-10; //цвет фона у уведомлений с успехом (пока нет)
+
+
+//Фоны баннеров ("уши" под "статичные" баннеры):
+$сolor-default-background-color1: $red-35;
+$сolor-default-background-color2: $red-25;
+$сolor-default-background-color3: $red-10;
+$сolor-default-background-color4: $pumpkin;
+$сolor-default-background-color5: $ginger-pale;
+$сolor-default-background-color6: $ginger-pale-60;
+$сolor-default-background-color7: $brown-light;
+$сolor-default-background-color8: $brown-light-60;
+$сolor-default-background-color9: $brown-light-35;
+$сolor-default-background-color10: $pink-40;
+$сolor-default-background-color11: $pink-30;
+$сolor-default-background-color12: $pink-10;
+$сolor-default-background-color13: $violet;
+$сolor-default-background-color14: $violet-light;
+$сolor-default-background-color15: $violet-light-40;
+$сolor-default-background-color16: $turquoise-bright;
+$сolor-default-background-color17: $turquoise-bright-50;
+$сolor-default-background-color18: $turquoise-bright-10;
+$сolor-default-background-color19: $turquoise-pale;
+$сolor-default-background-color20: $turquoise-pale-50;
+$сolor-default-background-color21: $turquoise-pale-30;
+$сolor-default-background-color23: $blue-light;
+$сolor-default-background-color25: $blue-pale;
+$сolor-default-background-color26: $blue-pale-70;
+$сolor-default-background-color27: $blue-pale-40;
+$сolor-default-background-color28: $lime-40;
+$сolor-default-background-color29: $brown-pale;
+$сolor-default-background-color30: $pumpkin-35;
+$сolor-default-background-color31: $yellow-30;
+$сolor-default-background-color32: $black-5;
+$сolor-default-background-color33: $green-pale;

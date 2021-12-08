@@ -1,0 +1,19 @@
+{
+  "name": "spectrum-foundations",
+  "version": "1.0.0",
+  "description": "Spectrum testing variables and molecules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firstasianinspace/spectrum-foundation"
+  },
+  "author": "Aleksandr Rabdaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Firstasianinspace/spectrum-foundation/issues"
+  },
+  "homepage": "https://github.com/Firstasianinspace/spectrum-foundation#readme"
+}

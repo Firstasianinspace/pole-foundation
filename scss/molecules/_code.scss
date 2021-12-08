@@ -1,0 +1,136 @@
+//Font styles
+@use '../variables/code' as variables;
+
+.text {
+    &-largetitle {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s1;
+        line-height: variables.$font-lh1;
+    }
+
+    &-title1 {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s2;
+        line-height: variables.$font-lh2;
+    }
+
+    &-title2 {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s3;
+        line-height: variables.$font-lh3;
+    }
+
+    &-title3 {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s4;
+        line-height: variables.$font-lh4;
+    }
+
+    &-title4 {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s5;
+        line-height: variables.$font-lh3;
+    }
+
+    &-title5 {
+        font-weight: variables.$font-db;
+        font-size: variables.$font-s6;
+        line-height: variables.$font-lh5;
+    }
+
+    &-title6-ac {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s7;
+        line-height: variables.$font-lh6;
+    }
+
+    &-title6 {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s7;
+        line-height: variables.$font-lh6;
+    }
+
+    &-body1-b {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s8;
+        line-height: variables.$font-lh7;
+    }
+
+    &-body1-ac {
+        font-weight: variables.$font-db;
+        font-size: variables.$font-s8;
+        line-height: variables.$font-lh8;
+    }
+
+    &-body1-m {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s8;
+        line-height: variables.$font-lh5;
+    }
+
+    &-body1 {
+        font-weight: variables.$font-r;
+        font-size: variables.$font-s8;
+        line-height: variables.$font-lh5;
+    }
+
+    &-body2-ac {
+        font-weight: variables.$font-db;
+        font-size: variables.$font-s9;
+        line-height: variables.$font-lh5;
+    }
+
+    &-body2 {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s9;
+        line-height: variables.$font-lh6;
+    }
+
+    &-body3 {
+        font-weight: variables.$font-db;
+        font-size: variables.$font-s13;
+        line-height: variables.$font-lh9;
+    }
+
+    &-subhead1-b {
+        font-weight: variables.$font-b;
+        font-size: variables.$font-s10;
+        line-height: variables.$font-lh7;
+    }
+
+    &-subhead1-ac {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s10;
+        line-height: variables.$font-lh6;
+    }
+
+    &-subhead1 {
+        font-weight: variables.$font-r;
+        font-size: variables.$font-s10;
+        line-height: variables.$font-lh6;
+    }
+
+    &-subhead2-ac {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s11;
+        line-height: variables.$font-lh8;
+    }
+
+    &-subhead2 {
+        font-weight: variables.$font-r;
+        font-size: variables.$font-s11;
+        line-height: variables.$font-lh7;
+    }
+
+    &-subhead3-ac {
+        font-weight: variables.$font-m;
+        font-size: variables.$font-s12;
+        line-height: variables.$font-lh8;
+    }
+
+    &-subhead3 {
+        font-weight: variables.$font-r;
+        font-size: variables.$font-s12;
+        line-height: variables.$font-lh8;
+    }
+}
