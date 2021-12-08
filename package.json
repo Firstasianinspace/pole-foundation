@@ -1,5 +1,5 @@
 {
-  "name": "pole-foundations",
+  "name": "yes",
   "version": "1.0.0",
   "description": "Pole testing variables and molecules",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Firstasianinspace/pole-foundation"
+    "url": "git+https://github.com/Firstasianinspace/pole-foundation.git"
   },
   "author": "Aleksandr Rabdaev",
   "license": "ISC",
