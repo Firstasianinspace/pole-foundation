@@ -1,19 +1,19 @@
 {
-  "name": "spectrum-foundations",
+  "name": "pole-foundations",
   "version": "1.0.0",
-  "description": "Spectrum testing variables and molecules",
+  "description": "Pole testing variables and molecules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Firstasianinspace/spectrum-foundation"
+    "url": "git+https://github.com/Firstasianinspace/pole-foundation"
   },
   "author": "Aleksandr Rabdaev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Firstasianinspace/spectrum-foundation/issues"
+    "url": "https://github.com/Firstasianinspace/pole-foundation/issues"
   },
-  "homepage": "https://github.com/Firstasianinspace/spectrum-foundation#readme"
+  "homepage": "https://github.com/Firstasianinspace/pole-foundation#readme"
 }
